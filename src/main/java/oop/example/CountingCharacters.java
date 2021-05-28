@@ -15,10 +15,10 @@ public class CountingCharacters {
     }
 
     public String getStringCount() {
-        Scanner input = new Scanner(System.in).useDelimiter("\\n");
+        Scanner input = new Scanner(System.in);
 
         System.out.println("Enter your string: ");
-        return input.next();
+        return input.nextLine();
     }
 
 }
